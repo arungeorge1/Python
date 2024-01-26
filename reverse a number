@@ -1,0 +1,7 @@
+num=int(input('Enter the number : '))
+rn=0
+while(int(num)>0):
+    rem=num%10
+    rn = rn*10 + int(rem)
+    num= num/10
+print(rn)
