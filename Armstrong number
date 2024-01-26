@@ -1,10 +1,11 @@
 num=int(input('Enter the number : '))
+x=num
 a=0
 while num>0:
     rem=int(num%10)
     a+=rem**3
     num/=10
-if a==num:
+if a==x:
     print('Armstrong number')
 else:
     print('Not armstrong number')
